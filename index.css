@@ -1025,45 +1025,8 @@ body {
   line-height: normal;
 }
 @media screen and (max-width: 576px) {
-  .group-child,
-  .website-view-item {
-    grid-template-columns: repeat(1, 1fr);
-    top: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .rectangle-parent {
-    font-size: var(--font-size-lg);
-  }
-  .play-instantly {
-    font-size: 24px;
-  }
-  .no-downloads {
-    font-size: 24px;
-  }
-  .group-parent5 {
-    width: 100%;
-    height: 100%;
-  }
-  .group-child,
-  .website-view-item {
-    top: 0;
-    width: 100%;
-    height: 100%;
-  }
-  .rectangle-parent {
-    font-size: var(--font-size-lg);
-  }
-  .play-instantly {
-    font-size: 18px;
-  }
-  .no-downloads {
-    font-size: 18px;
-  }
-  .group-parent5 {
-    width: 100%;
-    height: 100%;
+  .website-view{
+    flex-direction: column;
+    height: auto;
   }
 }
-
-
