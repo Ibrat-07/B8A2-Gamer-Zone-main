@@ -1019,14 +1019,4 @@ body {
   color: var(--color-gray-100);
   font-family: var(--font-work-sans);
 }
-/* Common styles for all screen sizes */
-body {
-  margin: 0;
-  line-height: normal;
-}
-@media screen and (max-width: 576px) {
-  .website-view{
-    flex-direction: column;
-    height: auto;
-  }
-}
+
